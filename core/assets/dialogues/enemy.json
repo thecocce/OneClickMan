@@ -1,0 +1,540 @@
+{
+  "lines": {
+    "pogo-1": {
+      "name": "Pogo Man",
+      "message": "Fear me! For I am Pogo Man!",
+      "face": 1,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "pogo-2"
+    },
+    "pogo-2": {
+      "name": "One Click Man",
+      "message": "I don't see your pogo-stick. Are you some sort of con-artist?!",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": null
+    },
+    "bug-1": {
+      "name": "Bug Splatter",
+      "message": "I am Bug Splatter! You're a small insect, and you think you can take ME on?! I'll crush you like the musca domestica that you are!",
+      "face": 2,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "bug-2"
+    },
+    "bug-2": {
+      "name": "One Click Man",
+      "message": "Your name makes you sound like you are made of bug guts. That's gross and you should really take a bath, friend.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "bug-3"
+    },
+    "bug-3": {
+      "name": "Bug Splatter",
+      "message": "That's some really big talk. I wouldn't be so sure of yourself if I were in your position!",
+      "face": 2,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": null
+    },
+    "frog-1": {
+      "name": "Frogman",
+      "message": "Thanks for killing that buffoon. I'm Frogman, Jumper Frogman. I'm gonna jump on you 'n' stuff, so prepare yourself!",
+      "face": 3,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "frog-2"
+    },
+    "frog-2": {
+      "name": "One Click Man",
+      "message": "Jump on me? That's basically the same idea as the last guy, with all the squashing he boasted. He be dead now, ya' know.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": null
+    },
+    "shell-1": {
+      "name": "Shell-Splitter",
+      "message": "Welcome to Shell City, baldy. I'm gonna split you in two and use your body to-",
+      "face": 4,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "shell-2"
+    },
+    "shell-2": {
+      "name": "One Click Man",
+      "message": "...",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "shell-3"
+    },
+    "shell-3": {
+      "name": "Shell-Splitter",
+      "message": "...",
+      "face": 4,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "shell-4"
+    },
+    "shell-4": {
+      "name": "Shell-Splitter",
+      "message": "He straight up left me alone. Now that's just downright rude...",
+      "face": 4,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": null
+    },
+    "shark-1": {
+      "name": "Sharkanator",
+      "message": "'SUP looser? Git ready tuh get SHARKANATED!!! HAHAHAHA!!!",
+      "face": 5,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "shark-2"
+    },
+    "shark-2": {
+      "name": "One Click Man",
+      "message": "Ok.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "shark-3"
+    },
+    "shark-3": {
+      "name": "Sharkanator",
+      "message": "DO YA HEAR THAT? That's the sound of my RIPPED bod screaming for blood! HERE I COME!!!",
+      "face": 5,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "shark-4"
+    },
+    "shark-4": {
+      "name": "One Click Man",
+      "message": "Geez... Your body is so bulky that it makes you look like your body could burst any second. Sweet Lord Bubble-Monkeys please don't touch me any of that!",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": null
+    },
+    "orca-1": {
+      "name": "ORCAstrator",
+      "message": "Welcome to mein victory party, ungeziefer. It's too bad you aren't invited. If you don't mind, I'm going to ORCAstrate you into schizer!!!",
+      "face": 6,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "orca-2"
+    },
+    "orca-2": {
+      "name": "One Click Man",
+      "message": "(Sweet balls of fury, this guy is dressed as a jacked Orca whale...)",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "orca-3"
+    },
+    "orca-3": {
+      "name": "ORCAstrator",
+      "message": "Quit staring at me like that, you'll make me blush! Sie verkehrten Hund!!!",
+      "face": 6,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "orca-4"
+    },
+    "orca-4": {
+      "name": "ORCAstrator",
+      "message": "*blushes*",
+      "face": 6,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": null
+    },
+    "mann-1": {
+      "name": "MannMan",
+      "message": "Hello, my bald friend. I am MannMan; I am the ultimate apex predator, and I shall crush you with the power of mankind. Art thou prepared?",
+      "face": 7,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "mann-2"
+    },
+    "mann-2": {
+      "name": "One Click Man",
+      "message": "Um, yeah, sure, but first I need to know: What is up with that infinitely redundant name?!",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "mann-3"
+    },
+    "mann-3": {
+      "name": "MannMan",
+      "message": "My mother bestowed this name upon me once she realized that I had the potential to become the ultimate being. From then on I trained in the art of war, constantly learning new ways to kill until I achieved my destined position among the gods.",
+      "face": 7,
+      "event": null,
+      "options": [],
+      "timer": 14,
+      "next": "mann-4"
+    },
+    "mann-4": {
+      "name": "One Click Man",
+      "message": "That literally makes zero sense. I mean- what even the hell?!",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "mann-5"
+    },
+    "mann-5": {
+      "name": "MannMan",
+      "message": "NOW YOU LISTEN HERE YOU LITTLE RUNT! I AM THE ULTIMATE BEING! WITH MY INGENUITY I CAN KILL ANY CREATURE THAT BREATHES OR OTHERWISE LIVES!!! I AM THE ULTIMATE APEX FIGHTER!!! THE AMALGAMATION OF MANKIND'S INGENUITY SLUMBERS WITHIN MY BRAIN!!! I'MA KILL YO ASS!!!",
+      "face": 7,
+      "event": null,
+      "options": [],
+      "timer": 18,
+      "next": "mann-6"
+    },
+    "mann-6": {
+      "name": "One Click Man",
+      "message": "Soka.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": null
+    },
+    "agor-1": {
+      "name": "Agorinero",
+      "message": "My my, these mongrels that came before me were quite weak. Wouldn't you agree?",
+      "face": 8,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "agor-2"
+    },
+    "agor-2": {
+      "name": "One Click Man",
+      "message": "Sure, I guess. It's quite boring watching them all explode in one hit. I don't suppose you can change that, can you?",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "agor-3"
+    },
+    "agor-3": {
+      "name": "Agorinero",
+      "message": "If there's one thing I know, it's the tides. Alright then, \"Hero,\" let us do battle!",
+      "face": 8,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "agor-4"
+    },
+    "agor-4": {
+      "name": "One Click Man",
+      "message": "If you say so.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "agor-5"
+    },
+    "agor-5": {
+      "name": "Agorinero",
+      "message": "Prepare to face your watery grave!",
+      "face": 8,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "agor-6"
+    },
+    "agor-6": {
+      "name": "One Click Man",
+      "message": "That was some display, at least.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "agor-7"
+    },
+    "agor-7": {
+      "name": "Agorinero",
+      "message": "Ha! You saw nothing.",
+      "face": 8,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": null
+    },
+    "kronoz-1": {
+      "name": "Kronoz",
+      "message": "So you've defeated my son. He was pathetic to say the least. Now, bald man, it is my turn. I will not be as easy on you as the rest of your opponents. Are you prepared?",
+      "face": 9,
+      "event": null,
+      "options": [],
+      "timer": 14,
+      "next": "kronoz-2"
+    },
+    "kronoz-2": {
+      "name": "One Click Man",
+      "message": "(Man, they just keep getting taller and taller. Are they compensating for something?!)",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "kronoz-3"
+    },
+    "kronoz-3": {
+      "name": "Kronoz",
+      "message": "Why do you continue to stare at me, bald man? Has my beard captivated you like it has millions of others?",
+      "face": 9,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "kronoz-4"
+    },
+    "kronoz-4": {
+      "name": "One Click Man",
+      "message": "Huh- what?! Oh, hey there. I was just thinking about- uh- stuff 'n' things.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "kronoz-5"
+    },
+    "kronoz-5": {
+      "name": "Kronoz",
+      "message": "...__________\nJust come at me, you strange little man.",
+      "face": 9,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "kronoz-6"
+    },
+    "kronoz-6": {
+      "name": "One Click Man",
+      "message": "Ok.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": null
+    },
+    "lord-1": {
+      "name": "Lord GabeN",
+      "message": "...",
+      "face": 10,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "lord-2"
+    },
+    "lord-2": {
+      "name": "One Click Man",
+      "message": "No monologue, huh?",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "lord-3"
+    },
+    "lord-3": {
+      "name": "Lord GabeN",
+      "message": "Silence. There is a bird feeding it's young nearby. Do not disturb the beauty of nature, boy",
+      "face": 10,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "lord-4"
+    },
+    "lord-4": {
+      "name": "One Click Man",
+      "message": "Soka.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "lord-5"
+    },
+    "lord-5": {
+      "name": "Lord GabeN",
+      "message": "...",
+      "face": 10,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "lord-6"
+    },
+    "lord-6": {
+      "name": "One Click Man",
+      "message": "...",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "lord-7"
+    },
+    "lord-7": {
+      "name": "Lord GabeN",
+      "message": "Alright, boy. Now you may speak.",
+      "face": 10,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "lord-8"
+    },
+    "lord-8": {
+      "name": "One Click Man",
+      "message": "You're the smallest of the bunch yet. You're at average height, like me. Are you sure you should be here???",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "lord-9"
+    },
+    "lord-9": {
+      "name": "Lord GabeN",
+      "message": "Have you learned nothing from the proverbs of my disciples? I've ruled this land for many, many years. You MUST have picked up a few of my teachings.",
+      "face": 10,
+      "event": null,
+      "options": [],
+      "timer": 14,
+      "next": "lord-10"
+    },
+    "lord-10": {
+      "name": "One Click Man",
+      "message": "You mean from the heralded Grumps of Games? I find their spouting more entertaining than anything. Sir Hanson once said, and I quote, \"Canadians all have big penises and they're made of maple syrup,\" while broadcasting the daily spiritual services.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 22,
+      "next": "lord-11"
+    },
+    "lord-11": {
+      "name": "Lord GabeN",
+      "message": "What in my name... How can that be? I spent hundreds of years teaching Mankind about peace, and care for nature. These idiots...",
+      "face": 10,
+      "event": null,
+      "options": [],
+      "timer": 10,
+      "next": "lord-12"
+    },
+    "lord-12": {
+      "name": "Lord GabeN",
+      "message": "I suppose the mere fact that nine warriors chose to attack you for no apparent reason within the span of mere minutes says a lot about how effective my disciples are as of today.",
+      "face": 10,
+      "event": null,
+      "options": [],
+      "timer": 18,
+      "next": "lord-13"
+    },
+    "lord-13": {
+      "name": "One Click Man",
+      "message": "Eh, I like them.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 6,
+      "next": "lord-14"
+    },
+    "lord-14": {
+      "name": "Lord GabeN",
+      "message": "Boy, it seems as though it is time that I disciplined this world. Prepare yourself. I've watched you grow. I know your strength. You're going to be the example to end all examples.",
+      "face": 10,
+      "event": null,
+      "options": [],
+      "timer": 18,
+      "next": null
+    },
+    "end-1": {
+      "name": "One Click Man",
+      "message": "You're still alive? Didn't expect that.",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 18,
+      "next": "end-2"
+    },
+    "end-2": {
+      "name": "Lord GabeN",
+      "message": "*winces on the ground*",
+      "face": 11,
+      "event": null,
+      "options": [],
+      "timer": 18,
+      "next": "end-3"
+    },
+    "end-3": {
+      "name": "One Click Man",
+      "message": "Perhaps I should take your place amongst the Gods, since ya know, I sort of crushed the shit out of you...",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 18,
+      "next": "end-4"
+    },
+    "end-4": {
+      "name": "One Click Man",
+      "message": "HEY EVERYBODY, I DECLARE TODAY TACO TUESDAY!!!",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 18,
+      "next": "end-5"
+    },
+    "end-5": {
+      "name": "One Click Man",
+      "message": "...",
+      "face": 0,
+      "event": null,
+      "options": [],
+      "timer": 18,
+      "next": "end-6"
+    },
+    "end-6": {
+      "name": "One Click Man",
+      "message": "Hey, I'm pretty good at this.",
+      "face": 0,
+      "event": "end",
+      "options": [],
+      "timer": 18,
+      "next": null
+    }
+  },
+  "faces": [
+    "ocm_portrait",
+    "pogo_portrait",
+    "bug_portrait",
+    "frog_portrait",
+    "shell_portrait",
+    "shark_portrait",
+    "orca_portrait",
+    "mann_portrait",
+    "agor_portrait",
+    "kronoz_portrait",
+    "lord_portrait",
+    "end_portrait"
+  ]
+}
