@@ -1,5 +1,5 @@
 {
-  com.badlogic.gdx.graphics.g2d.BitmapFont: { font: { file: font.fnt }, large: { file: large.fnt } },
+  com.badlogic.gdx.graphics.g2d.BitmapFont: { font: { file: font.fnt }, large: { file: large.fnt }, huge: { file: huge.fnt } },
   com.badlogic.gdx.graphics.Color: {
   white: { a: 1, b: 1, g: 1, r: 1 },
   grey: { a: 1, b: .5, g: .5, r: .5 },
@@ -29,7 +29,8 @@
   com.badlogic.gdx.scenes.scene2d.ui.Label$LabelStyle: {
   default: { font: font, fontColor: white },
   dialogue: { font: large, fontColor: white, background: default-round },
-  large: { font: large, fontColor: white }
+  large: { font: large, fontColor: white },
+  huge: { font: huge, fontColor: white }
 },
   com.badlogic.gdx.scenes.scene2d.ui.TextField$TextFieldStyle: {
   default: { background: default-round-down, font: font, fontColor: grey }

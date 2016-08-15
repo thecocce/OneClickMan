@@ -29,9 +29,8 @@ public class TitleScreen implements Screen {
     public TitleScreen() {
         stage = new Stage(new StretchViewport(Constants.WORLD_WIDTH, Constants.WORLD_HEIGHT));
 
-        Label title = new Label("One Click Man", Main.skin, "large");
+        Label title = new Label("One Click Man", Main.skin, "huge");
         title.setWrap(true);
-        title.setFontScale(1.5f);
         title.setAlignment(Align.center);
 
         Table titleContainer = new Table(Main.skin);
@@ -39,9 +38,9 @@ public class TitleScreen implements Screen {
         Table labels = new Table(Main.skin);
         labels.setFillParent(true);
         labels.add(title).spaceBottom(4).row();
-        labels.add("programmed by ThePaperPilot").row();
-        labels.add("written by Emendo12").row();
-        labels.add("influenced by One Punch Man, by [ONE]");
+        labels.add(new Label("programmed by ThePaperPilot", Main.skin, "large")).row();
+        labels.add(new Label("written by Emendo12", Main.skin, "large")).row();
+        labels.add(new Label("influenced by One Punch Man, by [ONE]", Main.skin, "large"));
         titleContainer.pad(5).add(labels).spaceBottom(20).expand().fill().row();
         stage.addActor(labels);
 
